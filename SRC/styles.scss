@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    header{
+        border: 1px solid red;
+        width: 100%;
+        background-color: #FFFF;
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            padding: 10px;
+            border: 1px solid green;
+
+            h1{
+                color: black;
+            }
+        }
+
+        nav{
+            border: 1px solid black;
+            color: white;
+            margin-right: 10px;
+        }
+    }
+}

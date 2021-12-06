@@ -2,24 +2,31 @@
   margin: 0px;
   padding: 0px;
 }
+
 * header {
   border: 1px solid red;
   width: 100%;
   background-color: #FFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 * header div {
   padding: 10px;
   border: 1px solid green;
 }
+
 * header div h1 {
   color: black;
 }
+
 * header nav {
   border: 1px solid black;
   color: white;
   margin-right: 10px;
 }
-
-/*# sourceMappingURL=/styles.164d45a1.css.map */
+/*# sourceMappingURL=styles.css.map */
