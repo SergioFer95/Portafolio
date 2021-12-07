@@ -5,6 +5,8 @@
   font-family: sans-serif;
 }
 * .container {
+  display: flex;
+  flex-direction: column;
   border: 1px solid rgba(225, 225, 226, 0.8);
   box-shadow: 0px 0px 10px #CCC;
   width: 90%;
@@ -64,24 +66,66 @@
 * .container section {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 * .container section aside {
+  width: 300px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+* .container section aside h4 {
+  font-size: 15px;
+  color: #948585;
+  text-align: center;
+  margin-bottom: 30px;
 }
 * .container section aside nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 * .container section aside nav a {
-  flex-grow: 1;
-  padding: 15px;
-  border: 1px solid blue;
+  height: auto;
+  color: #444;
+  padding: 20px;
+  width: 142px;
+  background-color: #EEEEEE;
+  margin-bottom: 20px;
+  text-align: center;
+  align-self: center;
+}
+* .container section aside nav a:hover {
+  background-color: #ccc;
+  color: white;
+}
+* .container section #boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+* .container section #boxes article {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 14.063rem;
+  box-shadow: 0px 0px 10px #CCC;
+}
+* .container section #boxes article img {
+  width: 14.063rem;
+}
+* .container section #boxes article .text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+* .container section #boxes article .text a {
+  color: #9E9E9E;
 }
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */

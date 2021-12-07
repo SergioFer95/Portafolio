@@ -5,6 +5,8 @@
     font-family: sans-serif;
     
     .container{
+        display: flex;
+        flex-direction: column;
         border: 1px solid rgba(225, 225, 226, 0.8);
         box-shadow: 0px 0px 10px #CCC;
         width: 90%;
@@ -76,32 +78,81 @@
         section{
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-bottom: 20px;
 
             aside{
+                width: 300px;
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                justify-content: center;
+                margin-left: 15px;
+                margin-right: 25px;
+
+                h4{
+                    
+                    font-size: 15px;
+                    color: #948585;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
 
                 nav{
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
 
                     a{
-                        flex-grow: 1;
-                        padding: 15px;
-                        border: 1px solid blue;
+                        height: auto;
+                        color: #444;
+                        padding:20px;
+                        width: 142px;
+                        background-color: #EEEEEE;
+                        margin-bottom: 20px;
+                        text-align: center;
+                        align-self: center;
+
+                        &:hover{
+                            background-color: #ccc;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            
+
+
+            #boxes{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-right: 20px;
+
+                article{
+                    margin-bottom: 10px;
+                    margin-right: 10px;
+                    width: 14.063rem;
+                    box-shadow: 0px 0px 10px #CCC;
+
+                    img{
+                        width: 14.063rem;
                     }
 
+                    .text{
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                        margin-left: 10px;
+
+                        a{
+                            color: #9E9E9E;
+                        }
+                    }
+                    
                 }
             }
 
-            // .boxes{
-            //     display: flex;
-            // }
         }
     }
 }
