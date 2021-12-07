@@ -18,7 +18,7 @@
   width: 100%;
   height: 120px;
   background-color: #FFFF;
-  border-bottom: 1px rgba(225, 225, 226, 0.8);
+  border-bottom: 1px solid rgba(225, 225, 226, 0.8);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -60,6 +60,28 @@
 }
 * .container header nav a:last-child {
   margin-right: 30px;
+}
+* .container section {
+  display: flex;
+  flex-direction: row;
+}
+* .container section aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+* .container section aside nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+* .container section aside nav a {
+  flex-grow: 1;
+  padding: 15px;
+  border: 1px solid blue;
 }
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */
