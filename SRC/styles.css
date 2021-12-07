@@ -40,13 +40,16 @@
 }
 
 * .container header div {
-  -ms-flex-preferred-size: 62%;
-      flex-basis: 62%;
-  padding: 10px;
-  margin-left: 20px;
+  -ms-flex-preferred-size: 57%;
+      flex-basis: 57%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 24px;
 }
 
 * .container header div h1 {
+  display: inline-block;
   color: black;
   font-family: Helvetica, sans-serif;
   font-style: italic;
@@ -56,12 +59,38 @@
 }
 
 * .container header nav {
-  color: white;
-  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  width: 90%;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
 }
 
 * .container header nav a {
-  margin-right: 25px;
+  padding: 13px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   font-size: 15px;
+  color: #444;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+* .container header nav a:hover {
+  background-color: #ccc;
+  color: white;
+}
+
+* .container header nav a:last-child {
+  margin-right: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
