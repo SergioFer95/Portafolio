@@ -81,6 +81,7 @@
             justify-content: space-between;
             padding-top: 20px;
             padding-bottom: 20px;
+            margin-bottom: 50px;
 
             aside{
                 width: 300px;
@@ -153,6 +154,35 @@
                 }
             }
 
+        }
+
+        footer{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: baseline;
+
+            div{
+                margin-left: 25px;
+                margin-bottom: 40px;
+
+
+                h1{
+                    display: inline-block;
+                    color: #808080;
+                    font-family: Helvetica, sans-serif;
+                    font-style: italic;
+                    font-weight: 900px;
+                    font-size: 35px;
+                    text-shadow: 1px 1px 0px #CCC;
+                }
+            }
+
+            p{
+                font-size: 15px;
+                margin-right: 30px;
+            }
+            
         }
     }
 }

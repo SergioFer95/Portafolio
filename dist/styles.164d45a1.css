@@ -69,6 +69,7 @@
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 * .container section aside {
   width: 300px;
@@ -126,6 +127,29 @@
 }
 * .container section #boxes article .text a {
   color: #9E9E9E;
+}
+* .container footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+* .container footer div {
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
+* .container footer div h1 {
+  display: inline-block;
+  color: #808080;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 900px;
+  font-size: 35px;
+  text-shadow: 1px 1px 0px #CCC;
+}
+* .container footer p {
+  font-size: 15px;
+  margin-right: 30px;
 }
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */
